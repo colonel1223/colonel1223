@@ -1,21 +1,18 @@
-### Spencer Kitaro Cottrell
+building autonomous systems at [Vesper Dynamics](https://colonel1223.net). RL, edge deployment, alignment research.
 
-AI safety researcher. Distribution-free uncertainty quantification, alignment economics, information-theoretic impossibility bounds.
+San Jose ↔ Tokyo · [colonel1223.net](https://colonel1223.net)
 
-**Research thesis:** Alignment is not an engineering problem to be solved but a fundamental constraint to be characterized.
+most of my time right now goes to:
+- real-time ML inference on edge hardware (quantization, pruning, latency optimization)
+- hierarchical RL policies for embodied agents
+- figuring out why alignment guarantees break at scale ([formal models](https://github.com/colonel1223/ai-alignment-research))
 
----
+some things I've built:
+- [learned-reranker](https://github.com/colonel1223/learned-reranker) — hybrid retrieval + neural re-ranking, +36% NDCG@10
+- [conformal-multimodal](https://github.com/colonel1223/conformal-multimodal) — distribution-free uncertainty quantification
+- [CHIMERA](https://github.com/colonel1223/CHIMERA) — 847K traces showing hallucination is information-theoretic
+- [agentic-rag-diagnostics](https://github.com/colonel1223/agentic-rag-diagnostics) — closed-loop retrieval agent
 
-| Project | Key Result |
-|---------|------------|
-| [conformal-multimodal](https://github.com/colonel1223/conformal-multimodal) | P(Y ∈ C(X)) ≥ 1−α, distribution-free, 94% coverage |
-| [alignment-tax-quantifier](https://github.com/colonel1223/alignment-tax-quantifier) | τ(N) = aN⁻ᵇ + c, R² > 0.94, 125M–70B params |
-| [CHIMERA](https://github.com/colonel1223/CHIMERA) | H(N,T) ≥ Ω(1/log N), α̂ = 1.73 ± 0.04 |
-| [SHOGGOTH](https://github.com/colonel1223/SHOGGOTH) | WebGL 2.0, 2400 particles, 0 deps |
-| [Papers](https://github.com/colonel1223/ai-research-modern-alchemy) | AI as Modern Alchemy — 4 papers |
+`python` `c++` `pytorch` `rl` `edge deployment`
 
-**Live:** [CHIMERA](https://colonel1223.github.io/CHIMERA/) · [SHOGGOTH](https://colonel1223.github.io/SHOGGOTH/) · [Portfolio](https://colonel1223.net)
-
-Python · C · TypeScript · PyTorch · WebGL 2.0 · GLSL · Conformal prediction · Hill estimation · EVT · Information theory · RLHF · DPO · ROME/MEMIT
-
-*"Until you make the unconscious conscious, it will direct your life and you will call it fate." — Jung*
+日本語も話せます
