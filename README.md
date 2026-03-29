@@ -13,6 +13,6 @@ some things I've built:
 - [CHIMERA](https://github.com/colonel1223/CHIMERA) — 847K traces showing hallucination is information-theoretic | 
 - [agentic-rag-diagnostics](https://github.com/colonel1223/agentic-rag-diagnostics) — closed-loop retrieval agent | 
 
-`python` `c++` `pytorch` `rl` `edge deployment`
+`python` `c` `pytorch` `rl` `edge deployment`
 
 日本語も話せます :-)
